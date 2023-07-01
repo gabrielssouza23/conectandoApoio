@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+    --main-header-color: #75AD86;
+    --btn-queroAjudar-color: #529868;
+    --btn-precisoAjuda-color: #FF7070;
+    --main-footer-color: #EDE4D8;
+
+    --black: #303030;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* HEADER */
+.header{
+  display: flex;
+  width: 100vw;
+  height: 5.625rem;
+  border-radius: 0rem 0rem 3.75rem 3.75rem;
+  background: var(--verde-80, #75AD86);
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+
+  
+}
+.header__navBar{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.25rem;
+  margin: 0 4.5rem 0 4.5rem;
+}
+
+.header__navBar__logo{
+  width: 2.5rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+}
+
+.navBar__buttons .btns__links{
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  margin: 2rem 0 2.04rem 0;
+  
+}
+
+.btns__links li a{
+  color: var(--black);
+  text-align: center;
+  
+  /* H3 */
+  font-size: 1.6rem;
+  font-family: Lato;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+
+/*footer*/
+
+.footer{
+  display: flex;
+  width: 100vw;
+  padding: 3.5rem;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: var(--main-footer-color);
+}
+
+.footer__list #about{
+  color: var(--black);
+
+  /* H5 */
+  font-size: 1.375rem;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.footer__list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+
+
+  /* H5 */
+  font-size: 1.375rem;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.footer__list a{
+  color: var(--black);
+
+}
+
+.footer .footer__logo{
+  justify-self: flex-end;
+}
+
